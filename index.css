@@ -25,6 +25,9 @@ body {
   grid-auto-flow: column;
   margin-right: 150px;
 }
+.loginBtn:hover, .newBtn:hover{
+  background-color: rgb(162, 162, 255);
+}
 .newBtn {
   width: 200px;
   height: 75px;
@@ -135,4 +138,5 @@ h3 {
   width: 150px;
   justify-self: end;
   margin-right: 15px;
+  cursor: pointer;;
 }
